@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 60px 20px 60px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right .fa-location-dot {
+    color: red;
+}
+
+.right i {
+    margin: 20px;
+}
+
+.right p {
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.navbar input {
+    margin-left: 50px;
+    border: transparent;
+}
+
+.navbar button {
+    background-color: #ffbc0d;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-1 li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.navbar_2 {
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar_2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_2 li {
+    margin-right: 25px;
+    list-style: none;
+
+}
+.card{
+    background-image: url("https://mcdonalds.com.pk/wp-content/uploads/2023/01/delivery-points-desktop-slider.png");
+    width: 92%;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin:51px;
+    padding:0 10px 90px 30px;
+}
+.Right{
+    background-color: rgb(247, 248, 248);
+}
+.Right p{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.a{
+    padding-left: 10px;
+    color: gray;
+}
+.Right h1{
+    padding: 10px;
+
+}
+
+.Right i{
+     font-size: 10px;
+     padding-left: 10px;
+}
+.Right button{
+    margin: 20px;
+    background-color: #ffbc0d;
+    border: transparent;
+    width: 130px;
+    height: 50px;
+}
+.photo {
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+padding-left:30px ;
+}
+.mccafe{
+
+margin: 20px;
+border: gray solid;
+border-width: 1px;
+}
+.mcdelivery{
+margin: 20px;
+border: gray solid;
+border-width: 1px;
+}
+.ourapp{
+margin: 20px;
+border: gray solid;
+border-width: 1px;
+}
+.mccafe h2, .mcdelivery h2, .ourapp h2{
+     margin-top: 10px;
+     color: red;
+     text-align: center;
+     padding-bottom: 30px;
+}
+.mccafe p, .mcdelivery p, .ourapp p{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.mccafe button{
+ background-color: #ffbc0d;
+ border: transparent;
+ width: 100px;
+ height: 30px;
+ margin-left:135px;
+ margin-bottom: 30px;
+}
+.mcdelivery button{
+    background-color: #ffbc0d;
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+    margin-left:135px;
+    margin-top: 46px;
+}
+.ourapp button{
+    background-color: #ffbc0d;
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    margin-left:135px;
+    margin-top: 50px;
+}
+.main1{
+    display: flex;
+padding-left: 30px;
+}
+.menu{
+margin: 20px;
+border: gray solid;
+border-width: 1px;
+}
+.trending{
+margin: 20px;
+border: gray solid;
+border-width: 1px;
+}
+.careers{
+margin: 20px;
+border: gray solid;
+border-width: 1px;
+}
+.menu h2, .trending h2, .careers h2{
+     margin-top: 10px;
+     color: red;
+     text-align: center;
+     padding-bottom: 30px;
+}
+.menu, .trending p, .careers p{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.menu button{
+ background-color: #ffbc0d;
+ border: transparent;
+ width: 100px;
+ height: 30px;
+ margin-top: 30px;
+}
+.trending button{
+    background-color: #ffbc0d;
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+    margin-left:135px;
+    margin-top: 20px;
+}
+.careers button{
+    background-color: #ffbc0d;
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    margin-left:135px;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 10vh;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.list ul{
+    list-style: none;
+}
+.footer h4{
+    margin-bottom: 10px;
+}
+.logo{
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.logo i{
+    padding: 10px 0px 10px 10px;
+    width: 35px;
+    height: 35px;
+    border: gray solid;
+    border-radius: 50%;
+    border-width: 1px;
+    margin: 15px;
+}
+.id img{
+    padding-right: 30px;
+}
+.footer2{
+    display: flex;
+    align-items: center;  
+      justify-content: space-between;
+}
+.ac{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 20px;
+}
+.ac p{
+    margin: 20px;
+    padding-left: 20px;
+    padding: 10px;
+}
+.ac img{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.circle{
+    background-color: red;
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+padding:10px 10px 10px 13px ;
+}
+.picture p{
+    padding-right: 50px;
+}
+.square{
+    margin-left: 1200px;
+
+}
